@@ -1,0 +1,6 @@
+ssh-keygen -t ed25519 -C "ponchomoran7@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ ssh-add -l -E SHA256
+  clip < ~/.ssh/id_ed25519.pub
+  
